@@ -4,17 +4,21 @@
     <view  class="msgs" wx:for="{{msgs}}">
     <!--自己发的-->
     <view wx:if="{{item.isSend==true}}"> 
-      <view  class="user-pic">
+      <view  class="user-pic">        
         <image src="{{item.C2cImage}}"></image>
       </view>   
-      <text class="msg-item"><text class="nickname">{{item.C2cNick}}</text> : {{item.content}}</text>
+      <text class="msg-item">
+      <!--内容 有 文字 图片 语音 文件 -->
+      <text class="nickname">{{item.C2cNick}}</text> : {{item.content}}</text>
       </view>
-      <!--别人发的-->
+    <!--别人发的-->
     <view wx:if="{{item.isSend==false}}"> 
       <view  class="user-pic">
         <image src="{{item.C2cImage}}"></image>
       </view>   
-      <text class="msg-item"><text class="nickname">{{item.C2cNick}}</text> : {{item.content}}</text>
+      <text class="msg-item">
+       <!--内容 有 文字 图片 语音 文件 -->
+      <text class="nickname">{{item.C2cNick}}</text> : {{item.content}}</text>
       </view>
     </view>
   </view>
