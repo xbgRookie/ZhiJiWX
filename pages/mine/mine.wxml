@@ -1,0 +1,29 @@
+<view class="basic">
+  <view class="pic" bindtap="goMineSet"><image src="{{zjUser.headImg}}"></image></view>
+  <view class="name">{{zjUser.nickName}}</view>
+</view>
+<view class="list-wrap">
+  <view class="item" bindtap="goMineInfos">
+    <image class="icon" src="../asset/images/mine-zhj.png"></image>
+    <view class="text-wrap border-bottom">
+      <text class="title">我的知己</text>
+      <view class="open" ></view>
+    </view>
+  </view>
+  <view class="item" bindtap="goWallet">
+    <image class="icon" src="../asset/images/mine-wallet.png"></image>
+    <view class="text-wrap border-bottom">
+      <text class="title">我的钱包</text>
+      <view class="open" ></view>
+    </view>
+  </view>
+  <view class="item" bindtap='goFeedBack'>
+    <image class="icon" src="../asset/images/mine-suggest.png"></image>
+    <view class="text-wrap" >
+      <text class="title">反馈</text>
+      <view class="open"></view>
+    </view>
+  </view>
+</view>
+<!-- 底部导航 -->
+<component-nav index="2"></component-nav>

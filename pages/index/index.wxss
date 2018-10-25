@@ -1,0 +1,100 @@
+
+.nav {
+  height: 96rpx;
+  background: #f8f9fb;
+  overflow: hidden;
+}
+.nav .nav-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 32rpx;
+  color: #323639;
+  overflow-x: auto;
+}
+.nav view {
+  display: block;
+  height: 100%;
+  line-height: 96rpx;
+  letter-spacing: 1px;
+  font-size: 34rpx;
+  white-space: nowrap;
+  position: relative;
+}
+.nav .active:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 8rpx;
+  border-radius: 4rpx;
+  background: #2b98f4;
+}
+.nav .active {
+  color: #2b98f4;
+  font-size:36rpx;
+  font-weight:500;
+}
+.page-wrap {
+  width: 100%;
+  padding: 0 0 0 32rpx;
+  line-height: 1;
+  overflow-x: hidden;
+  background:#fff;
+}
+.page-wrap .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30rpx 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  max-width:100%;
+}
+.page-wrap .item.border-bottom:before {
+  content: '';
+  left: 153rpx;
+  border-color: #f8f8f8;
+}
+.page-wrap .item .pic {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 128rpx;
+          flex: 0 0 128rpx;
+  width: 128rpx;
+  height: 128rpx;
+  margin-right: 25rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.page-wrap .item .pic image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.page-wrap .item .infos {
+  min-width: 0;
+  margin-right:32rpx;
+  padding-right:32rpx;
+}
+.page-wrap .item .name {
+  color: #323639;
+  font-size: 34rpx;
+}
+.page-wrap .item .desc {
+  margin-top: 33rpx;
+  color: #97a1a8;
+  font-size: 30rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

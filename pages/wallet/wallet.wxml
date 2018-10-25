@@ -1,0 +1,9 @@
+<view class="page-wrap">
+  <view class="wallet-box">
+    <view class="top">
+      <view class="title">账户余额（元）</view><view class="detail">明细</view>
+    </view>
+    <view class="count">50.00</view>
+  </view>
+  <view class="draw pub-btn">提现</view>
+</view>

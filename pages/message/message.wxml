@@ -1,0 +1,17 @@
+<view class="list-item" wx:for="{{contactList}}" wx:key="{{item.id}}" bindtap='goMineInfos' data-userId='item.userId'>
+  <view class="infos border-bottom">
+    <view class="user-box">
+      <view class="user-pic">
+        <image src="{{item.C2cImage}}"></image>
+      </view>
+      <view class="user-info">
+        <text class="name">{{item.C2cNick}}</text>
+        <view class="time">{{item.MsgTimeStamp}}</view>
+      </view>
+    </view>
+    <text class="status">待回答</text>
+  </view>
+  <view class="question">{{item.MsgShow}}</view>
+</view>
+<!-- 底部导航 -->
+<component-nav index="1"></component-nav>

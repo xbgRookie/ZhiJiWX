@@ -1,0 +1,9 @@
+<view class="ask-wrap">
+  <image src="../asset/images/wechat-jpg.jpg" class="image"></image>
+  <view class="name">{{userInfo.nickName}}</view>
+  <view class="vocation">{{userInfo.professional}}</view>
+  <view class="desc">{{userInfo.introduction}}</view>
+  <view class="ask pub-btn" bindtap='askuser'>问问</view>
+  <!-- <text class="price">￥50</text> -->
+  <view class="rule">规则</view>
+</view>

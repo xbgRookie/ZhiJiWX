@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="msgs-wrapper">
+    <view  class="msgs" wx:for="{{msgs}}">
+    <!--自己发的-->
+    <view wx:if="{{item.isSend==true}}"> 
+      <view  class="user-pic">
+        <image src="{{item.C2cImage}}"></image>
+      </view>   
+      <text class="msg-item"><text class="nickname">{{item.C2cNick}}</text> : {{item.content}}</text>
+      </view>
+      <!--别人发的-->
+    <view wx:if="{{item.isSend==false}}"> 
+      <view  class="user-pic">
+        <image src="{{item.C2cImage}}"></image>
+      </view>   
+      <text class="msg-item"><text class="nickname">{{item.C2cNick}}</text> : {{item.content}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="input-section">
+      <input value="{{msgContent}}" bindinput="bindMsgInput"  placeholder="" bindconfirm="bindConfirm" />
+      <button bindtap="bindSend">发送</button>
+  </view>
+</view>

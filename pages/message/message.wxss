@@ -1,0 +1,87 @@
+html,
+body {
+  background: #f8f9fb;
+}
+.list-item {
+  margin: 20rpx 20rpx 0 20rpx;
+  padding: 0 20rpx 20rpx 20rpx;
+  border-radius: 16rpx;
+  background: #fff;
+}
+.list-item .infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24rpx 0;
+}
+.list-item .infos:before{
+  border-color:#f8f8f8;
+}
+.list-item .user-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.list-item .user-pic {
+  margin-right: 26rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  position: relative;
+}
+.list-item .user-pic image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.list-item .user-pic .flag {
+  position: absolute;
+  top: 2rpx;
+  right: 2rpx;
+  width: 16rpx;
+  height: 16rpx;
+  background: #ff0b0b;
+  border: 2rpx solid #fff;
+  border-radius: 50%;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.list-item .name {
+  margin-bottom: 20rpx;
+  color: #323639;
+  font-size: 34rpx;
+}
+.list-item .time {
+  color: #b5bcc1;
+  font-size: 24rpx;
+}
+.list-item .status {
+  font-size: 30rpx;
+  color: #007aff;
+}
+.list-item .living {
+  color: #61d486;
+}
+.list-item .end {
+  color: #c1d9e5;
+}
+.list-item .question {
+  margin: 18rpx 0 0 0;
+  font-size: 30rpx;
+  color: #011c31;
+  line-height: 1.35;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

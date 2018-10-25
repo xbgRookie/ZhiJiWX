@@ -1,0 +1,38 @@
+<view class="list-wrap">
+  <view class="item border-bottom" bindtap="uploadImage">
+    <text class="title">头像</text>
+    <image src="{{zjUser.headImg}}" class="pic" ></image> 
+  </view>
+  <view class="item border-bottom">
+    <text class="title">名字</text>
+    <input type="text" bindinput="bindNickNameInput" class="text" value="{{zjUser.nickName}}" />
+  </view>
+  <view class="item border-bottom">
+    <text class="title">ID</text>
+    <view class="text gray">{{zjUser.userId}}</view>
+  </view>
+  <view class="item border-bottom">
+    <text class="title">我的专业</text>
+    <input type="text" class="text" bindinput="bindProfessionalInput" value="{{zjUser.professional}}" />
+  </view>
+  <view class="item border-bottom">
+    <text class="title">问答时长</text>
+    <view class="text hourBox gray"><input type="text" value="{{zjUser.answerTime}}" class="hour" /><text class="gray">小时</text></view>
+  </view>
+  <view class="item">
+    <text class="title">价格</text>
+    <input type="text" class="text gray" value="{{zjUser.answerPrice}}元" />
+  </view>
+  <view class="item desc-wrap border-bottom">
+    <text class="title">描述</text>
+    <view class="text"></view>
+  </view>
+  <view class="desc-box">
+    <textarea placeholder-class="phcolor" value='{{zjUser.introduction}}' class="desc-text" placeholder="请介绍有关您职业的知识或有关您的信息" bindinput="bindIntroInput"></textarea>
+    <view class="limit-wrap">
+      <text class="count">200</text>
+      <span class="close">×</span>
+    </view>
+  </view>
+  <view class="save pub-btn" bindtap="bindSend">保存</view>
+</view>

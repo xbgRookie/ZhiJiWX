@@ -1,0 +1,7 @@
+<view class="ask-wrap">
+  <image src="data:image/png;base64,{{codesrc}}" class="image"></image>
+  <view class="name">好奇宝宝</view>
+  <view class="vocation">妇产科主治医生</view>
+  <view class="desc">妇科、产科、儿科相关问题都可以来问我，一般24小时内回复</view>
+  <view class="ask pub-btn">设置</view>
+</view>

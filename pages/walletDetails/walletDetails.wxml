@@ -1,0 +1,28 @@
+<view class="list-item">
+  <view class="infos">
+    <view class="user-pic">
+      <image src="http://life.southmoney.com/tuwen/UploadFiles_6871/201804/20180423114822170.jpg"></image>
+    </view>
+    <view class="user-box border-bottom">
+      <view class="user-info">
+        <text class="name">安小姐</text>
+        <view class="time">2018/07/09 15:24</view>
+      </view>
+      <text class="status active">+50</text>
+    </view>
+  </view>
+</view>
+<view class="list-item">
+  <view class="infos">
+    <view class="user-pic">
+      <image src="http://life.southmoney.com/tuwen/UploadFiles_6871/201804/20180423114822170.jpg"></image>
+    </view>
+    <view class="user-box border-bottom">
+      <view class="user-info">
+        <text class="name">安小姐</text>
+        <view class="time">2018/07/09 15:24</view>
+      </view>
+      <text class="status">-10</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+<view class="{{shadowFlag ? 'navBar shadow' : 'navBar'}}">
+  <view class='{{index === 0 ? "item active" : "item"}}' catchtap='turnToPage' data-url="index">
+    <image src="{{index===0 ? icons[0][1] : icons[0][0]}}" class='image'></image>
+    <text class='title'>知几</text>
+  </view>
+  <view class='{{index === 1 ? "item active" : "item"}}' catchtap='turnToPage' data-url="message">
+    <view class='icon-wrap'>
+      <image src="{{index===1 ? icons[1][1] : icons[1][0]}}" class='image'></image>
+      <view class='flag'></view>
+    </view>
+    <text class='title'>信息</text>
+    
+  </view>
+  <view class='{{index === 2 ? "item active" : "item"}}' catchtap='turnToPage' data-url="mine">
+    <image src="{{index===2 ? icons[2][1] : icons[2][0]}}" class='image'></image>
+    <text class='title'>我的</text>
+  </view>
+</view>

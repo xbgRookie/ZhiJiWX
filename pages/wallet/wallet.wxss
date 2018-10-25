@@ -1,0 +1,32 @@
+html,
+body {
+  background: #f8f9fb;
+}
+.page-wrap {
+  margin-top: 20rpx;
+}
+.page-wrap .wallet-box {
+  background: #fff;
+  padding: 48rpx 30rpx 0 30rpx;
+  font-size: 34rpx;
+  font-weight: 400;
+  color: #999d9f;
+}
+.page-wrap .wallet-box .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.page-wrap .wallet-box .detail {
+  color: #2B98F4;
+}
+.page-wrap .wallet-box .count {
+  padding: 118rpx 0;
+  color: #011C31;
+  font-size: 120rpx;
+  font-weight: 400;
+  font-family: robot;
+}

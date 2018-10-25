@@ -1,0 +1,53 @@
+.navBar{
+  display:flex;
+  position: fixed;
+  left:0;
+  bottom:0;
+  right:0;
+  width:100%;
+  height:96rpx;
+  background:#fff;
+}
+.navBar .item{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navBar .icon-wrap{
+  position: relative;
+  top:8rpx;
+}
+.navBar .image{
+  width:48rpx;
+  height:48rpx;
+}
+.navBar .item:nth-child(2) .title{
+  position: relative;
+  top:-1rpx;
+}
+.navBar .title{
+  margin-top:4rpx;
+  font-size:20rpx;
+  color:#C1D9E5;
+  line-height:1;
+}
+.navBar .active .title{
+  color:#007AFF;
+}
+.shadow{
+  box-shadow:0px -2px 20px 0px rgba(43,180,244,0.12);
+}
+.flag {
+  position: absolute;
+  top: -4rpx;
+  right: -6rpx;
+  width: 16rpx;
+  height: 16rpx;
+  background: #ff0b0b;
+  border: 2rpx solid #fff;
+  border-radius: 50%;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}

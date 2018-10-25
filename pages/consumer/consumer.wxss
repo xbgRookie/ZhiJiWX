@@ -1,0 +1,29 @@
+html,
+body {
+  background: #f8f9fb;
+}
+.pic-wrap {
+  width: 280rpx;
+  height: 280rpx;
+  margin: 48rpx auto 54rpx auto;
+  /* background: rgba(216, 216, 216, 0.2);
+  -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%); */
+}
+.pic-wrap image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.text {
+  font-weight: 400;
+  color: #999d9f;
+  font-size: 34rpx;
+  text-align: center;
+  margin-bottom: 24rpx;
+  line-height:1;
+}
+.copy {
+  margin-top: 80rpx;
+}
+

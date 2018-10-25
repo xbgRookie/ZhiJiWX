@@ -1,0 +1,22 @@
+<view class="nav">
+  <view class="nav-box">
+    <view class="{{item.id === currentId ? 'active' : ''}}" wx:for="{{navList}}" wx:key="item.id" catchtap='navToggleTap' data-id="{{item.id}}" data-title="{{item.title}}">{{item.title}}</view>
+  </view>
+</view>
+<view class="page-wrap">
+  <view class="item border-bottom" wx:for="{{listData}}" wx:key="{{item.id}}" bindtap='goMineInfos' data-userid='{{item.userId}}'>
+    <view class="pic">
+      <image src="{{item.headImg}}"></image> 
+    </view>
+    <view class="infos">
+      <text class="name">{{item.nickName}}</text>
+      <view class="desc no-wrap">{{item.introduction}}</view>
+    </view>
+  </view>
+</view>
+<!-- 底部导航 -->
+<component-nav></component-nav>
+<view class="weui-loadmore" hidden="{{isHideLoadMore}}">
+  <view class="weui-loading"></view>
+  <view class="weui-loadmore__tips">正在加载</view>
+</view>

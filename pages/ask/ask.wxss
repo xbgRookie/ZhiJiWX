@@ -1,0 +1,41 @@
+page{background:#fff}
+.ask-wrap {
+  border-top: 20rpx solid #f8f9fb;
+  padding-top: 86rpx;
+  text-align: center;
+}
+.ask-wrap .image {
+  margin: 0 auto;
+  display: block;
+  width: 316rpx;
+  height:316rpx;
+}
+.ask-wrap .name {
+  margin: 26rpx 0 16rpx 0;
+  font-size: 34rpx;
+  color: #011c31;
+}
+.ask-wrap .vocation {
+  display: inline-block;
+  padding: 0 16rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  background: #fff2ef;
+  border-radius: 4rpx;
+  color: #fd754f;
+  font-size: 30rpx;
+}
+.ask-wrap .desc {
+  margin-top: 26rpx;
+  padding: 0 96rpx;
+  color: #011c31;
+  font-size: 30rpx;
+  line-height: 1.7;
+}
+.ask-wrap .ask .price {
+  margin-left: 26rpx;
+}
+.ask-wrap .rule {
+  color: #007aff;
+  font-size: 34rpx;
+}

@@ -1,0 +1,5 @@
+<view class="page-wrap">
+  <view class="pic-wrap"><image src="../asset/images/zhiji-logo.png"></image></view>
+  <view class="tips text">联系知己小助手</view>
+  <view class="copy pub-btn">复制微信</view>
+</view>
