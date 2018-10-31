@@ -11,7 +11,7 @@ var config = {
   //腾讯云RoomService后台请求域名
   roomServiceUrl: 'https://room.qcloud.com/weapp/double_room/',
   webrtcServerUrl: 'https://xzb.qcloud.com/webrtc/weapp/webrtc_room',
-  zhijiServerUrl:'https://zhijiwen.com/api/v1/',
+  zhijiServerUrl:'',
   sdkappid: 1400147405,
   accountType: 36862,
   accountMode: 0 //帐号模式，0-表示独立模式，1-表示托管模式
